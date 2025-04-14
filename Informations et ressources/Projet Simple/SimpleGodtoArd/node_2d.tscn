@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsecujkvkkvfl"]
+
+[ext_resource type="Script" uid="uid://fgj5my3uheb6" path="res://Scripts/SimpleArduinoManager.cs" id="1_wtcfe"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_wtcfe")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_right = 1148.0
+offset_bottom = 645.0
