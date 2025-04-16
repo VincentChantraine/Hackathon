@@ -1,0 +1,56 @@
+[gd_scene load_steps=6 format=4 uid="uid://b1ynjyd4p2bea"]
+
+[ext_resource type="Texture2D" uid="uid://0l5hspjcb7fe" path="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Home Atlas 4.png" id="1_l6klw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fg5ta"]
+resource_name = "Atlas 4"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_l6klw")
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ccjrt"]
+_surfaces = [{
+"aabb": AABB(-0.35458, -1.06374, -0.709159, 0.709159, 2.12748, 1.41832),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAAADAAEAAAACAAMAAQAEAAIAAgAFAAMAAwAGAAEAAwAFAAYABQACAAcAAgAEAAcABQAHAAYABwAEAAEABgAHAAEA"),
+"name": "Atlas 4",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("eIu1vpkoiL9vizW/eIu1vpcoiD9xizW/eIu1vpkoiL96izU/Zou1PpkoiL9vizW/eIu1vpcoiD93izU/Zou1PpkoiL96izU/Zou1PpcoiD9xizW/Zou1PpcoiD93izU/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_nn0nn"]
+resource_name = "Cube_024"
+_surfaces = [{
+"aabb": AABB(-0.35458, -1.06374, -0.709159, 0.709159, 2.12748, 1.41832),
+"attribute_data": PackedByteArray("RF0TPhBFuj5DXRM+rLc7PiFKhz4QRbo+IUqHPqy3Oz7KeYM9LNY5PpCJIjws1jk+xnmDPQDCkjuAiSM8AMKEO/tFDT4QRbo+iMRaPBBFuj77RQ0+PFY6PnjEWjw8Vjo+1kKhPmyduj4WdYI+bJ26PtZCoT5kaDw+FnWCPmRoPD5SVfQ9FEQ4PlBV9D1QNHQ9AmwtPhREOD4BbC0+UDR0PY3/iD0URDg+jf+IPSDgYD1DGwI+FEQ4PkMbAj4g4GA9"),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("AAABAAIAAQADAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQATABIAFAAVABYAFQAXABYA"),
+"material": SubResource("StandardMaterial3D_fg5ta"),
+"name": "Atlas 4",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("eIu1vpkoiL9vizW/eIu1vpcoiD9xizW/eIu1vpkoiL96izU/eIu1vpcoiD93izU/eIu1vpkoiL9vizW/Zou1PpkoiL9vizW/eIu1vpcoiD9xizW/Zou1PpcoiD9xizW/Zou1PpkoiL9vizW/Zou1PpkoiL96izU/Zou1PpcoiD9xizW/Zou1PpcoiD93izU/Zou1PpkoiL96izU/eIu1vpkoiL96izU/Zou1PpcoiD93izU/eIu1vpcoiD93izU/eIu1vpkoiL9vizW/eIu1vpkoiL96izU/Zou1PpkoiL9vizW/Zou1PpkoiL96izU/Zou1PpcoiD9xizW/Zou1PpcoiD93izU/eIu1vpcoiD9xizW/eIu1vpcoiD93izU/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7///wAAAAD/v///AAAwABfA//8AALsAXMD//wAA6wB0wP///3//////////f/////////9///////7//3///////3//f////7//f/9/////v/9//3////+//3//f////7//fwAA////v/9/AAD///+//38AAP///7//fwAA////v/9///8AAP+//3///wAA/7//f///AAD/v/9///8AAP+/")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ccjrt")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_rfbjy"]
+size = Vector3(0.746338, 2.23218, 1.43915)
+
+[node name="Bookshell" type="StaticBody3D"]
+
+[node name="Bookshelf" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_nn0nn")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0.0111084, 0.0318604, -0.00881958)
+shape = SubResource("BoxShape3D_rfbjy")

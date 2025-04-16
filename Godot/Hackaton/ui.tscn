@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://b768fxrsdlye7"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_xb563"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchor_right = 0.642
+anchor_bottom = 0.432
+offset_right = 413.416
+offset_bottom = 364.064
+
+[node name="Sprint_slider" type="HSlider" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.995
+anchor_bottom = 1.0
+offset_left = 367.0
+offset_top = 589.0
+offset_right = -368.235
+offset_bottom = 2.0
+theme_override_icons/grabber = SubResource("ViewportTexture_xb563")
+max_value = 1.0
+step = 0.0
+value = 1.0

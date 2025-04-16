@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://osh7wador8os"]
+
+[ext_resource type="Texture2D" uid="uid://4owntbbfxpf6" path="res://PSX Assets - Survival House Kit/PSX Home Kit/Textures/Wall With Wood 2/Stone Wall with Wood Corner.png" id="1_lquvc"]
+
+[resource]
+cull_mode = 2
+albedo_texture = ExtResource("1_lquvc")

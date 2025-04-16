@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=4 uid="uid://ciks5q7kymadc"]
+
+[ext_resource type="Texture2D" uid="uid://4owntbbfxpf6" path="res://PSX Assets - Survival House Kit/PSX Home Kit/Textures/Wall With Wood 2/Stone Wall with Wood Corner.png" id="1_7al42"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_by321"]
+albedo_texture = ExtResource("1_7al42")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rqk1h"]
+resource_name = "Wall Paper 1"
+vertex_color_use_as_albedo = true
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ese4i"]
+_surfaces = [{
+"aabb": AABB(-2, -2, -8.74228e-08, 4, 4, 0.100001),
+"format": 34359742465,
+"index_count": 78,
+"index_data": PackedByteArray("AAABAAIAAwAAAAIAAgABAAQAAQAFAAQAAQAAAAYAAAAHAAYABwAIAAYABQABAAkACQABAAYACAAKAAYACQALAAUABgAKAAwACgANAAwADgAGAAwABgAOAAkADAAPAA4ADgAPABAAEQAOABAAEgAOABEAEwASABEADgASAAkAEgAUAAkAFAAVAAkAFQAWAAkACQAWAAsAFgAXAAsA"),
+"name": "Wall Paper 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("fJVGPwAAAEAuvbszfJVGP94yGj8AAAAAAAAAQN4yGj8AAAAAAAAAQAAAAEAuvbszAAAAQAAAAMAuvbuzfJVGPwAAAMAuvbuzfJVGv94yGj8AAAAAfJVGvwAAAEAuvbszAAAAwAAAAEAuvbszfJVGP94yGj/3zMw9AAAAwN4yGj8AAAAAfJVGPwAAAMADzcw9fJVGvwAAAMAuvbuzAAAAwAAAAMAuvbuzfJVGv94yGj8Jzcw9fJVGvwAAAMAVzcw9AAAAwAAAAMAjzcw9AAAAwN4yGj8Xzcw9fJVGvwAAAED9zMw9AAAAwAAAAEAMzcw9fJVGPwAAAEDrzMw9AAAAQAAAAEDdzMw9AAAAQN4yGj/pzMw9AAAAQAAAAMD0zMw9")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3v504"]
+resource_name = "Plane_106"
+_surfaces = [{
+"aabb": AABB(-2, -2, -8.74228e-08, 4, 4, 0.100001),
+"attribute_data": PackedByteArray("QrWcPgAAAABCtZw+9IfYPgAAAAD0h9g+QrWcPvSH2D5CtZw+AACAPwAAAAAAAIA/QrWcPgAAAABfpTE/AAAAAF6lMT/0h9g+QrWcPvSH2D4AAIA/9IfYPgAAgD8AAIA/X6UxPwAAgD8AAIA/AAAAAAAAgD/0h9g+XqUxP/SH2D4AAAAAAAAAAEK1nD4AAAAAAAAAAPSH2D4AAAAA9IfYPkK1nD70h9g+AAAAAAAAgD9epTE/9IfYPgAAgD/0h9g+X6UxPwAAgD9fpTE/AAAAAAAAgD8AAAAAXqUxP/SH2D5CtZw+AAAAAEK1nD70h9g+AAAAAPSH2D5CtZw+9IfYPkK1nD4AAIA/AAAAAAAAgD9CtZw+AAAAAF+lMT8AAAAAXqUxP/SH2D4AAIA/9IfYPgAAgD8AAIA/X6UxPwAAgD8AAIA/AAAAAAAAgD/0h9g+XqUxP/SH2D4AAAAAAAAAAEK1nD4AAAAAAAAAAPSH2D4AAAAA9IfYPkK1nD70h9g+AAAAAAAAgD9CtZw+9IfYPkK1nD4AAAAAXqUxP/SH2D5epTE/9IfYPgAAgD/0h9g+X6UxPwAAgD9fpTE/AAAAAAAAgD8AAAAAXqUxP/SH2D5aKNU+SvqRPvTNaD4yTxY/cutcPklzFD8XN88+eEKOPnywdD4bKxg/981oPjJPFj+/Fa4+Jm3QPv8GtD74JNQ+00XJPqqKij4WN88+eEKOPnDrXD5JcxQ/7AhRPmGXEj8="),
+"format": 34359742487,
+"index_count": 78,
+"index_data": PackedByteArray("AAABAAIAAwAEAAUABgAHAAgACQAGAAgACgALAAwADQAOAA8AEAARABIAEwAUABUAFgAXABgAGQAaABsAHAAdAB4AHwAgACEAIgAjACQAJQAmACcAKAApACoAKwAsAC0ALgAvADAAMQAyADMANAA1ADYANwA4ADkAOgA7ADwAPAA9ADoAPgA/AEAAQABBAD4AQgBDAEQARABFAEIA"),
+"material": SubResource("StandardMaterial3D_rqk1h"),
+"name": "Wall Paper 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 70,
+"vertex_data": PackedByteArray("fJVGPwAAAEAuvbszfJVGP94yGj8AAAAAAAAAQN4yGj8AAAAAfJVGP94yGj8AAAAAfJVGPwAAAMAuvbuzAAAAQAAAAMAuvbuzfJVGPwAAAEAuvbszfJVGvwAAAEAuvbszfJVGv94yGj8AAAAAfJVGP94yGj8AAAAAAAAAwN4yGj8AAAAAAAAAwAAAAMAuvbuzfJVGvwAAAMAuvbuzAAAAwAAAAEAuvbszAAAAwN4yGj8AAAAAfJVGv94yGj8AAAAAAAAAQAAAAEAuvbszfJVGPwAAAEAuvbszAAAAQN4yGj8AAAAAAAAAQN4yGj8AAAAAfJVGP94yGj8AAAAAAAAAQAAAAMAuvbuzfJVGv94yGj8AAAAAAAAAwN4yGj8AAAAAfJVGvwAAAMAuvbuzfJVGvwAAAEAuvbszAAAAwAAAAEAuvbszfJVGv94yGj8AAAAAfJVGvwAAAED9zMw9fJVGv94yGj8Jzcw9AAAAwN4yGj8Xzcw9fJVGv94yGj8Jzcw9fJVGvwAAAMAVzcw9AAAAwAAAAMAjzcw9fJVGvwAAAED9zMw9fJVGPwAAAEDrzMw9fJVGP94yGj/3zMw9AAAAQN4yGj/pzMw9AAAAQAAAAMD0zMw9fJVGPwAAAMADzcw9AAAAQAAAAEDdzMw9AAAAQN4yGj/pzMw9fJVGP94yGj/3zMw9AAAAwAAAAEAMzcw9fJVGvwAAAED9zMw9AAAAwN4yGj8Xzcw9AAAAwN4yGj8Xzcw9fJVGv94yGj8Jzcw9AAAAwAAAAMAjzcw9fJVGv94yGj8Jzcw9fJVGvwAAAED9zMw9fJVGP94yGj/3zMw9fJVGP94yGj/3zMw9AAAAQN4yGj/pzMw9fJVGPwAAAMADzcw9fJVGPwAAAEDrzMw9AAAAQAAAAEDdzMw9fJVGP94yGj/3zMw9fJVGPwAAAMAuvbuzfJVGP94yGj8AAAAAfJVGP94yGj/3zMw9fJVGPwAAAMADzcw9fJVGv94yGj8AAAAAfJVGv94yGj8Jzcw9fJVGP94yGj/3zMw9fJVGP94yGj8AAAAAfJVGvwAAAMAuvbuzfJVGvwAAAMAVzcw9fJVGv94yGj8Jzcw9fJVGv94yGj8AAAAA/////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/////8AAP+//////wAA/7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////7//f/9/////v/9//3////+//3//f////78AAP9/u84AgAAA/3+7zgCAAAD/f7vOAIAAAP9/u84AgP9/AAD//13n/38AAP//Xef/fwAA//9d5/9/AAD//13n////f/9/Xaf///9//39dp////3//f12n////f/9/Xac=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_ese4i")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_i40jy"]
+size = Vector3(1.25476, 4.07021, 0.0865631)
+
+[node name="WallWithGate" type="StaticBody3D"]
+
+[node name="Plain Wall Gate_002" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_by321")
+mesh = SubResource("ArrayMesh_3v504")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.43802, 0, 0)
+shape = SubResource("BoxShape3D_i40jy")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.39319, 0, 0)
+shape = SubResource("BoxShape3D_i40jy")

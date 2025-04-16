@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=4 uid="uid://cyos6lmsdq40p"]
+
+[ext_resource type="Texture2D" uid="uid://di6rqw5krduw3" path="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Paintings 2.png" id="1_rbnhw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_77cnh"]
+resource_name = "Paintings"
+transparency = 2
+alpha_scissor_threshold = 0.5
+alpha_antialiasing_mode = 0
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_rbnhw")
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_vayfr"]
+_surfaces = [{
+"aabb": AABB(-0.0266666, -1, -0.7, 0.04, 2, 1.4),
+"format": 34359742465,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAQAAAAUAAQADAAIAAQAFAAMAAAACAAQABAACAAMAAAAGAAUABgAAAAQABQAHAAMABwAEAAMABgAEAAgABwAFAAkABQAGAAoACgAGAAgACQAFAAoACAAEAAsABAAHAAsACgAIAAsACwAHAAkACQAKAAsA"),
+"lods": [1.29511e-05, PackedByteArray("AAABAAIAAQADAAIAAAACAAQABAACAAMAAQAAAAUAAQAFAAMABgAAAAQAAAAGAAUABQAGAAQABwAFAAQABQAHAAMABwAEAAMA")],
+"name": "Paintings",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 12,
+"vertex_data": PackedByteArray("AHTavAIAgL80MzM/AHTavAIAgL8xMzO/AHTavPz/fz80MzM/AHTavPz/fz8xMzO/AHRaPPz/fz80MzM/AHRaPAIAgL8xMzO/AHRaPAIAgL80MzM/AHRaPPz/fz8xMzO/AHRaPGAnUD8wtRE/AHRaPGonUL8wtRG/AHRaPGonUL8wtRE/AHRaPGAnUD8wtRG/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_36tm4"]
+resource_name = "Cube_062"
+_surfaces = [{
+"aabb": AABB(-0.0266666, -1, -0.7, 0.04, 2, 1.4),
+"attribute_data": PackedByteArray("GF10P+eiCz+76CI/6KILPxdddD+ALro9u+giP4Auuj2oBHk/6aILP+Cwdj/pogs/qAR5P5Auuj3fsHY/kC66PXBYez/pogs/qAR5P+miCz9wWHs/kC66PacEeT+QLro9OKx9PwAAgD83rH0/o4suPwAAgD8AAIA/AACAP6OLLj84rH0/pIsuPzesfT+OLro+AACAP6SLLj8AAIA/ji66PhdddD/oogs/GF10P///fz+76CI/6aILP7voIj8AAIA/dMBsPzkgdT9fhSo/OiB1P3TAbD+ughY/XoUqP66CFj8="),
+"format": 34359742487,
+"index_count": 60,
+"index_data": PackedByteArray("AAABAAIAAQADAAIABAAFAAYABQAHAAYAGAAZABoAGAAVABkAFAAVABgAGgAUABgAFQAXABkAFgAUABoAGQAXABsAFwAWABsAGQAbABoAGwAWABoACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQATABIA"),
+"lods": [1.29511e-05, PackedByteArray("AAABAAIAAQADAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQATABIAFAAVABYAFQAXABYA")],
+"material": SubResource("StandardMaterial3D_77cnh"),
+"name": "Paintings",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 28,
+"vertex_data": PackedByteArray("AHTavAIAgL80MzM/AHTavAIAgL8xMzO/AHTavPz/fz80MzM/AHTavPz/fz8xMzO/AHTavAIAgL8xMzO/AHRaPAIAgL8xMzO/AHTavPz/fz8xMzO/AHRaPPz/fz8xMzO/AHRaPAIAgL80MzM/AHTavAIAgL80MzM/AHRaPPz/fz80MzM/AHTavPz/fz80MzM/AHTavAIAgL8xMzO/AHTavAIAgL80MzM/AHRaPAIAgL8xMzO/AHRaPAIAgL80MzM/AHRaPPz/fz8xMzO/AHRaPPz/fz80MzM/AHTavPz/fz8xMzO/AHTavPz/fz80MzM/AHRaPPz/fz8xMzO/AHRaPAIAgL8xMzO/AHRaPPz/fz80MzM/AHRaPAIAgL80MzM/AHRaPGonUL8wtRG/AHRaPGonUL8wtRE/AHRaPGAnUD8wtRG/AHRaPGAnUD8wtRE/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7//////AAD/v/////8AAP+//////wAA/7//////AAD/v/9//3////+//3//f////7//f/9/////v/9//3////+//38AAP///7//fwAA////v/9/AAD///+//38AAP///7//f///AAD/v/9///8AAP+//3///wAA/7//f///AAD/v////3/+////////fwAAAID///9//v8AgP///3/+/wCA////fwAAAID///9//v8AgP///3/+////////f/7/AIA=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_vayfr")
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_fkh5u"]
+
+[node name="Paint" type="StaticBody3D"]
+
+[node name="Paint 7" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_36tm4")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SeparationRayShape3D_fkh5u")

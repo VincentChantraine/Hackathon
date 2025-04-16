@@ -1,0 +1,95 @@
+[gd_scene load_steps=8 format=4 uid="uid://bo3ye3wkt0sog"]
+
+[ext_resource type="Texture2D" uid="uid://dsbmu8uxgmluh" path="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Home Atlas 1.png" id="1_7hg4a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7grv4"]
+resource_name = "Atlas 1"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_7hg4a")
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gmavu"]
+_surfaces = [{
+"aabb": AABB(-0.35, -0.75, -0.5, 0.7, 1.5, 1),
+"format": 34359742465,
+"index_count": 102,
+"index_data": PackedByteArray("AAABAAIAAQAAAAMAAQAEAAIAAQADAAQAAAACAAUABQACAAQAAAAGAAMABgAAAAUABgAHAAMABgAFAAcAAwAIAAQACAAFAAQAAwAJAAgABwAJAAMABQAIAAoABQAKAAcACQALAAgACAALAAoADAALAAkACwAMAAoADQAMAAkADAAOAAoADgAMAA0ABwAKAA8ACgAOAA8ACQAHAA8ADwAOAA0ADQAJAA8AEAARABIAEgATABAAEQAQABQAFAAVABEAFgAVABQAFAAXABYA"),
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 24,
+"vertex_data": PackedByteArray("MzOzvgMAQL/0//8+MzOzvv3/P78FAAC/MzOzvv3/Pz8FAAA/MzOzPv3/P78FAAC/MzOzvgMAQD/0//++MzOzPv3/Pz8FAAA/MzOzPgMAQL/0//8+2oKuPun5Or8mTfk+MzOzPgMAQD/0//++2oKuPuP5Or9BTfm+2oKuPub5Oj88Tfk+2oKuPuz5Oj8sTfm+2oKuvuz5Oj8sTfm+2oKuvuP5Or9BTfm+2oKuvub5Oj88Tfk+2oKuvun5Or8mTfk+MzOzPn3IvTwAAAA/MzOzPk/JvTwAAAC/MzOzvk/JvTwAAAC/MzOzvn3IvTwAAAA/2oKuPsFFLz0zTfk+2oKuPiZGLz00Tfm+2oKuviZGLz00Tfm+2oKuvsFFLz0zTfk+")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_xs1qm"]
+resource_name = "Cube_016"
+_surfaces = [{
+"aabb": AABB(-0.35, -0.75, -0.5, 0.7, 1.5, 1),
+"attribute_data": PackedByteArray("74j3Pmh8Hj/wbL0+aHweP++I9z7SzuU+72y9PtLO5T4j/qs+0s7lPvBQgz7SzuU+Iv6rPtKkjj7wUIM+0qSOPhEbED9ofB4/74j3Pmh8Hj8RGxA/0s7lPu+I9z7SzuU+VqvUPtLO5T5Vq9Q+0rKrPodY/T7SzuU+h1j9PtKyqz4j/qs+0s7lPiP+qz7Ssqs+VqvUPtLO5T5Wq9Q+0rKrPu+I9z5ofB4/74j3PtLO5T7wbL0+aHweP+9svT7SzuU+I/6rPtLO5T4i/qs+0qSOPvBQgz7SzuU+8FCDPtKkjj4RGxA/aHwePxEbED/SzuU+74j3Pmh8Hj/viPc+0s7lPlar1D7SzuU+h1j9PtLO5T5Vq9Q+0rKrPodY/T7Ssqs+I/6rPtLO5T5Wq9Q+0s7lPiP+qz7Ssqs+VqvUPtKyqz4RGxA/aHwePxEbED/SzuU+ERsQP2h8Hj8RGxA/0s7lPodY/T7Ssqs+h1j9PtKyqz6HWP0+0s7lPodY/T7SzuU+I/6rPtKyqz4j/qs+0s7lPiP+qz7Ssqs+I/6rPtLO5T7wUIM+0s7lPvBQgz7SzuU+8FCDPtKkjj7wUIM+0qSOPodY/T7Ssqs+h1j9PtLO5T5Wq9Q+0s7lPlWr1D7Ssqs+h1j9PtKyqz5Vq9Q+0rKrPlar1D7SzuU+h1j9PtLO5T6HWP0+0rKrPodY/T7SzuU+h1j9PtLO5T6HWP0+0rKrPg=="),
+"format": 34359742487,
+"index_count": 102,
+"index_data": PackedByteArray("AAABAAIAAQADAAIABAAFAAYABQAHAAYACAAJAAoACQALAAoADAANAA4ADQAPAA4AEAARABIAEQATABIAFAAVABYAFQAXABYAGAAZABoAGQAbABoAHAAdAB4AHQAfAB4AIAAhACIAIQAjACIAJAAlACYAJQAnACYAKAApACoAKQArACoALAAtAC4ALQAvAC4AMAAxADIAMQAzADIANAA1ADYANQA3ADYAOAA5ADoAOgA7ADgAPAA9AD4APgA/ADwAQABBAEIAQgBDAEAA"),
+"material": SubResource("StandardMaterial3D_7grv4"),
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 68,
+"vertex_data": PackedByteArray("MzOzvgMAQL/0//8+MzOzvv3/P78FAAC/MzOzvv3/Pz8FAAA/MzOzvgMAQD/0//++MzOzvv3/P78FAAC/MzOzPv3/P78FAAC/MzOzvgMAQD/0//++MzOzPgMAQD/0//++MzOzPgMAQL/0//8+MzOzvgMAQL/0//8+MzOzPv3/Pz8FAAA/MzOzvv3/Pz8FAAA/MzOzvv3/P78FAAC/MzOzvgMAQL/0//8+MzOzPv3/P78FAAC/MzOzPgMAQL/0//8+MzOzPgMAQD/0//++MzOzPv3/Pz8FAAA/MzOzvgMAQD/0//++MzOzvv3/Pz8FAAA/2oKuvun5Or8mTfk+2oKuvub5Oj88Tfk+2oKuvuP5Or9BTfm+2oKuvuz5Oj8sTfm+2oKuvuP5Or9BTfm+2oKuvuz5Oj8sTfm+2oKuPuP5Or9BTfm+2oKuPuz5Oj8sTfm+2oKuPun5Or8mTfk+2oKuPub5Oj88Tfk+2oKuvun5Or8mTfk+2oKuvub5Oj88Tfk+2oKuvuP5Or9BTfm+2oKuPuP5Or9BTfm+2oKuvun5Or8mTfk+2oKuPun5Or8mTfk+2oKuPuz5Oj8sTfm+2oKuvuz5Oj8sTfm+2oKuPub5Oj88Tfk+2oKuvub5Oj88Tfk+MzOzPgMAQL/0//8+MzOzPv3/Pz8FAAA/2oKuPun5Or8mTfk+2oKuPub5Oj88Tfk+MzOzPgMAQL/0//8+2oKuPun5Or8mTfk+MzOzPv3/P78FAAC/2oKuPuP5Or9BTfm+MzOzPv3/Pz8FAAA/MzOzPgMAQD/0//++2oKuPub5Oj88Tfk+2oKuPuz5Oj8sTfm+MzOzPv3/P78FAAC/2oKuPuP5Or9BTfm+MzOzPgMAQD/0//++2oKuPuz5Oj8sTfm+MzOzPn3IvTwAAAA/MzOzPk/JvTwAAAC/MzOzvk/JvTwAAAC/MzOzvn3IvTwAAAA/2oKuPsFFLz0zTfk+2oKuvsFFLz0zTfk+2oKuviZGLz00Tfm+2oKuPiZGLz00Tfm+2oKuPsFFLz0zTfk+2oKuPiZGLz00Tfm+MzOzPk/JvTwAAAC/MzOzPn3IvTwAAAA/AAD/f/9//78AAP9//3//vwAA/3//f/+/AAD/f/9//7/+////AAD/v/7///8AAP+//v///wAA/7/+////AAD/v/9//3////+//3//f////7//f/9/////v/9//3////+//38AAP///7//fwAA////v/9/AAD///+//38AAP///7//f/7/AAD/v/9//v8AAP+//3/+/wAA/7//f/7/AAD/v////3//f/8/////f/9//z////9//3//P////3//f/8//3//fwAA/z//f/9/AAD/P/9//38AAP8//3//fwAA/z/+////////P/7///////8//v///////z/+////////P/9//v////8//3/+/////z//f/7/////P/9//v////8//38AAAAA/z//fwAAAAD/P/9/AAAAAP8//38AAAAA/z/+/7O0////v/7/s7T///+//v+ztP///7/+/7O0////v0XXuaj///8/Rde5qP///z9F17mo////P0XXuaj///8/RNdFV////79E10VX////v0TXRVf///+/RNdFV////79Ky/9/////P0rL/3////8/Ssv/f////z9Ky/9/////P/9/AAD///+//38AAP///7//fwAA////v/9/AAD///+//3/+/////z//f/7/////P/9//v////8//3/+/////z9E17mo////P0TXuaj///8/RNe5qP///z9E17mo////Pw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_gmavu")
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_84of2"]
+_surfaces = [{
+"aabb": AABB(0.000916213, -0.836875, -1.00003, 0.032367, 1.5, 1),
+"format": 34359742465,
+"index_count": 36,
+"index_data": PackedByteArray("BAAAAAYABAAGAAcAAAADAAYABAAHAAIAAAAEAAIABgABAAcABgADAAEABwABAAIAAwAAAAUAAwAFAAEAAAACAAUAAQAFAAIA"),
+"lods": [0.0289113, PackedByteArray("BAAAAAEAAAAEAAIABAABAAIAAAACAAUAAQAFAAIAAwAAAAUAAAADAAEAAwAFAAEA"), 0.577093, PackedByteArray("AAABAAIAAQADAAIAAAACAAMAAAADAAEA")],
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("B1QIPXg9Vr+S6t+3AC5wOobCKT/gAIC/AC5wOng9Vr+S6t+3B1QIPYbCKT/7EOC3B1QIPXg9Vr/gAIC/AC5wOobCKT/7EOC3B1QIPYbCKT/gAIC/AC5wOng9Vr/gAIC/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_c25el"]
+resource_name = "Cube_027"
+_surfaces = [{
+"aabb": AABB(0.000916213, -0.836875, -1.00003, 0.032367, 1.5, 1),
+"attribute_data": PackedByteArray("8FCDPmh8Hj/vbL0+0s7lPvBQgz5ofB4/8FCDPtLO5T7vbL0+aHweP/BQgz7SzuU+72y9PtLO5T7vbL0+aHwePw=="),
+"format": 34359742487,
+"index_count": 36,
+"index_data": PackedByteArray("BAAAAAYABAAGAAcAAAADAAYABAAHAAIAAAAEAAIABgABAAcABgADAAEABwABAAIAAwAAAAUAAwAFAAEAAAACAAUAAQAFAAIA"),
+"lods": [0.0289113, PackedByteArray("BAAAAAEAAAAEAAIABAABAAIAAAACAAUAAQAFAAIAAwAAAAUAAAADAAEAAwAFAAEA"), 0.577093, PackedByteArray("AAABAAIAAQADAAIAAAACAAMAAAADAAEA")],
+"material": SubResource("StandardMaterial3D_7grv4"),
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 8,
+"vertex_data": PackedByteArray("B1QIPXg9Vr+S6t+3AC5wOobCKT/gAIC/AC5wOng9Vr+S6t+3B1QIPYbCKT/7EOC3B1QIPXg9Vr/gAIC/AC5wOobCKT/7EOC3B1QIPYbCKT/gAIC/AC5wOng9Vr/gAIC/qqpVVf/f/49KxWX1////v1RVVFX///8/qaqqqv///z+zOpoKK8Y5BVVVqar///8/sTpj9SnGxXpNxZkK////vw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_84of2")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_22oi4"]
+size = Vector3(0.720337, 1.53055, 1.1272)
+
+[node name="Medkit" type="StaticBody3D"]
+
+[node name="First Aid Cabinet" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_xs1qm")
+skeleton = NodePath("")
+
+[node name="First Aid Door" type="MeshInstance3D" parent="First Aid Cabinet"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.349084, 0.0868752, 0.50002)
+mesh = SubResource("ArrayMesh_c25el")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00762939, 0.00187683, -0.0150146)
+shape = SubResource("BoxShape3D_22oi4")

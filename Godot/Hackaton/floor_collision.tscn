@@ -1,0 +1,62 @@
+[gd_scene load_steps=7 format=4 uid="uid://ui0tt577x2eg"]
+
+[ext_resource type="Texture2D" uid="uid://dkggfvut013hs" path="res://PSX Assets - Survival House Kit/PSX Home Kit/Textures/Tile Floor/DamaFloor.png" id="1_6syin"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_clup8"]
+size = Vector3(4.07874, 0.0334473, 4.12067)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_vvfmu"]
+albedo_texture = ExtResource("1_6syin")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rgt7j"]
+resource_name = "Tile Wooden 2"
+vertex_color_use_as_albedo = true
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 0.0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_u8ggx"]
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"format": 34359742465,
+"index_count": 96,
+"index_data": PackedByteArray("EAALAAYACwAMAAYAEAAGAAUADQALABAAEQAQAAUAEgANABAAEgAQABEADgANABIAEQAFAAEAEwAOABIADwAOABMABAAPABMAEwASABQAFAASABEABAATABUAFQATABQABwAEABUAFgARAAEAFAARABYAFgABAAIAAAAWAAIAFwAUABYAFwAWAAAAFQAUABcAAwAXAAAABwAVABgAGAAVABcAGAAXAAMACAAHABgACQAYAAMACAAYAAkACgAIAAkA"),
+"lods": [1e-10, PackedByteArray("AAABAAIAAwABAAAABAABAAMAAQAEAAUABAAGAAUABwAEAAMACAAHAAMACAADAAkACgAIAAkACwAMAAYADQALAAYABAANAAYADgANAAQADwAOAAQA")],
+"name": "Tile Wooden 2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 25,
+"vertex_data": PackedByteArray("AAAAPwAAAAAAAIA/AACAPwAAAAAAAAA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAC/AACAPwAAAAAAAAAAAACAPwAAAAAAAAC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAA/AAAAvwAAAAAAAIA/AACAvwAAAAAAAIA/AAAAPwAAAAAAAIC/AACAPwAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAvwAAAAAAAIC/AACAvwAAAAAAAIC/AAAAPwAAAAAAAAC/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAC/AAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAAAAvwAAAAAAAAAAAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAvwAAAAAAAAA/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_hupir"]
+resource_name = "Plane_228"
+_surfaces = [{
+"aabb": AABB(-1, 0, -1, 2, 1e-05, 2),
+"attribute_data": PackedByteArray("AABAPwAAgD8AAIA/AABAPwAAgD8AAIA/AAAAPwAAgD8AAAAAAACAPgAAgD8AAAA/AACAPwAAgD4AAAAAAAAAPwAAAAAAAEA/AACAPgAAgD8AAAAAAACAPwAAQD8AAAAAAACAPwAAAAAAAAA/AAAAAAAAgD4AAAAAAAAAAAAAAAAAAEA/AACAPgAAQD8AAAA/AAAAPwAAgD4AAIA+AACAPgAAAD8AAAA/AACAPgAAAD8AAEA/AABAPwAAAD8AAEA/AACAPgAAQD8="),
+"format": 34359742487,
+"index_count": 96,
+"index_data": PackedByteArray("EAALAAYACwAMAAYAEAAGAAUADQALABAAEQAQAAUAEgANABAAEgAQABEADgANABIAEQAFAAEAEwAOABIADwAOABMABAAPABMAEwASABQAFAASABEABAATABUAFQATABQABwAEABUAFgARAAEAFAARABYAFgABAAIAAAAWAAIAFwAUABYAFwAWAAAAFQAUABcAAwAXAAAABwAVABgAGAAVABcAGAAXAAMACAAHABgACQAYAAMACAAYAAkACgAIAAkA"),
+"lods": [1e-10, PackedByteArray("AAABAAIAAwABAAAABAABAAMAAQAEAAUABAAGAAUABwAEAAMACAAHAAMACAADAAkACgAIAAkACwAMAAYADQALAAYABAANAAYADgANAAQADwAOAAQA")],
+"material": SubResource("StandardMaterial3D_rgt7j"),
+"name": "Tile Wooden 2",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 25,
+"vertex_data": PackedByteArray("AAAAPwAAAAAAAIA/AACAPwAAAAAAAAA/AACAPwAAAAAAAIA/AAAAAAAAAAAAAIA/AACAvwAAAAAAAAC/AACAPwAAAAAAAAAAAACAPwAAAAAAAAC/AACAvwAAAAAAAAAAAACAvwAAAAAAAAA/AAAAvwAAAAAAAIA/AACAvwAAAAAAAIA/AAAAPwAAAAAAAIC/AACAPwAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAvwAAAAAAAIC/AACAvwAAAAAAAIC/AAAAPwAAAAAAAAC/AAAAPwAAAAAAAAAAAAAAAAAAAAAAAAC/AAAAvwAAAAAAAAC/AAAAAAAAAAAAAAAAAAAAvwAAAAAAAAAAAAAAPwAAAAAAAAA/AAAAAAAAAAAAAAA/AAAAvwAAAAAAAAA//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////7//f///////v/9///////+//3///////78=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_u8ggx")
+
+[node name="Floor Collision" type="StaticBody3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00799561, -0.0157471, 0.0144958)
+shape = SubResource("BoxShape3D_clup8")
+
+[node name="Floor_020" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+material_override = SubResource("StandardMaterial3D_vvfmu")
+mesh = SubResource("ArrayMesh_hupir")
+skeleton = NodePath("")

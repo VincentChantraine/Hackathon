@@ -1,0 +1,54 @@
+[gd_scene load_steps=6 format=4 uid="uid://dp2ehm8040nf5"]
+
+[ext_resource type="Texture2D" uid="uid://dsbmu8uxgmluh" path="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Home Atlas 1.png" id="1_sk5gk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_7grv4"]
+resource_name = "Atlas 1"
+transparency = 4
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("1_sk5gk")
+emission_enabled = true
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_yqxh0"]
+_surfaces = [{
+"aabb": AABB(-2, -1.50996e-07, -1, 4, 1e-05, 2),
+"format": 34359742465,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAQADAAIA"),
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AAAAwGchIjQAAIA/AAAAwGchIrQAAIC/AAAAQGchIjQAAIA/AAAAQGchIrQAAIC/")
+}]
+blend_shape_mode = 0
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_42ler"]
+resource_name = "Plane"
+_surfaces = [{
+"aabb": AABB(-2, -1.50996e-07, -1, 4, 1e-05, 2),
+"attribute_data": PackedByteArray("fv58PwTa4D5+/nw/xjgeP8OlIT8E2uA+w6UhP8Y4Hj8="),
+"format": 34359742487,
+"index_count": 6,
+"index_data": PackedByteArray("AAABAAIAAQADAAIA"),
+"material": SubResource("StandardMaterial3D_7grv4"),
+"name": "Atlas 1",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("AAAAwGchIjQAAIA/AAAAwGchIrQAAIC/AAAAQGchIjQAAIA/AAAAQGchIrQAAIC//3///wAA/7//f///AAD/v/9///8AAP+//3///wAA/78=")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_yqxh0")
+
+[sub_resource type="SeparationRayShape3D" id="SeparationRayShape3D_sk5gk"]
+
+[node name="Carpet" type="StaticBody3D"]
+
+[node name="Carpet_001" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 7.54979e-08, 0, -7.54979e-08, 1, 0, 0, 0)
+mesh = SubResource("ArrayMesh_42ler")
+skeleton = NodePath("")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SeparationRayShape3D_sk5gk")
