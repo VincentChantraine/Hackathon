@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crorjmdgunkt"
-path.s3tc="res://.godot/imported/Deep Freezer.png-5a0129fba481474f8d3163d72d8d2f73.s3tc.ctex"
+path.s3tc="res://.godot/imported/Deep Freezer.png-c78c1ac2a921c6f1a6876fec2a6b458c.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Deep Freezer.png"
-dest_files=["res://.godot/imported/Deep Freezer.png-5a0129fba481474f8d3163d72d8d2f73.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Deep Freezer.png"
+dest_files=["res://.godot/imported/Deep Freezer.png-c78c1ac2a921c6f1a6876fec2a6b458c.s3tc.ctex"]
 
 [params]
 

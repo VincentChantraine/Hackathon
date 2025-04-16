@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dx3kq0fq4t78p"
-path.s3tc="res://.godot/imported/ahƒap dolap-texture.png-4335dabda625335c758d82fc5cdb6634.s3tc.ctex"
+path.s3tc="res://.godot/imported/ahƒap dolap-texture.png-18e682e02fe71aa94f00384fd3f7c0d9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/ahƒap dolap-texture.png"
-dest_files=["res://.godot/imported/ahƒap dolap-texture.png-4335dabda625335c758d82fc5cdb6634.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/ahƒap dolap-texture.png"
+dest_files=["res://.godot/imported/ahƒap dolap-texture.png-18e682e02fe71aa94f00384fd3f7c0d9.s3tc.ctex"]
 
 [params]
 

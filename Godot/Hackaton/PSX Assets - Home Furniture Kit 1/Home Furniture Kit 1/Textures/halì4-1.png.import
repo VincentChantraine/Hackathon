@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://3op5xpogabaw"
-path.s3tc="res://.godot/imported/halì4-1.png-552168bfd475e2fcdae8f970cfc2af8b.s3tc.ctex"
+path.s3tc="res://.godot/imported/halì4-1.png-2d5bc53629d19f129ed0481a7203cab0.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -12,8 +12,8 @@ generator_parameters={}
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/halì4-1.png"
-dest_files=["res://.godot/imported/halì4-1.png-552168bfd475e2fcdae8f970cfc2af8b.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/halì4-1.png"
+dest_files=["res://.godot/imported/halì4-1.png-2d5bc53629d19f129ed0481a7203cab0.s3tc.ctex"]
 
 [params]
 

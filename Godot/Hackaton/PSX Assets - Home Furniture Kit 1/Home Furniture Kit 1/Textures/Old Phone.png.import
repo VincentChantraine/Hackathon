@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4c55o7ig636r"
-path.s3tc="res://.godot/imported/Old Phone.png-efad8faa2c9776f413a4c8aaef7f186f.s3tc.ctex"
+path.s3tc="res://.godot/imported/Old Phone.png-4bc613bfad9c7881047c2cc5a655c5e6.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Old Phone.png"
-dest_files=["res://.godot/imported/Old Phone.png-efad8faa2c9776f413a4c8aaef7f186f.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Old Phone.png"
+dest_files=["res://.godot/imported/Old Phone.png-4bc613bfad9c7881047c2cc5a655c5e6.s3tc.ctex"]
 
 [params]
 

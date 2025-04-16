@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwhxldmld0ors"
-path.s3tc="res://.godot/imported/Red Antique Wardrobe-Texture.png-64a051d4fbe1ad21c779332eccf245db.s3tc.ctex"
+path.s3tc="res://.godot/imported/Red Antique Wardrobe-Texture.png-d9d6fff39435a05a16b0957d402387ac.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/textures/Red Antique Wardrobe-Texture.png"
-dest_files=["res://.godot/imported/Red Antique Wardrobe-Texture.png-64a051d4fbe1ad21c779332eccf245db.s3tc.ctex"]
+source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/Textures/Red Antique Wardrobe-Texture.png"
+dest_files=["res://.godot/imported/Red Antique Wardrobe-Texture.png-d9d6fff39435a05a16b0957d402387ac.s3tc.ctex"]
 
 [params]
 

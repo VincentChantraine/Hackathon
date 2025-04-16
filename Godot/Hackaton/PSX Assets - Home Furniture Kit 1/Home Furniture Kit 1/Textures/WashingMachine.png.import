@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4ri35dx78ow4"
-path.s3tc="res://.godot/imported/WashingMachine.png-8cb2861f3752c3ca0a3c11de96860070.s3tc.ctex"
+path.s3tc="res://.godot/imported/WashingMachine.png-c6d3993e9e395662e81331499b4897a5.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/WashingMachine.png"
-dest_files=["res://.godot/imported/WashingMachine.png-8cb2861f3752c3ca0a3c11de96860070.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/WashingMachine.png"
+dest_files=["res://.godot/imported/WashingMachine.png-c6d3993e9e395662e81331499b4897a5.s3tc.ctex"]
 
 [params]
 

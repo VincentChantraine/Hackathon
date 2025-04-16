@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsrbaff6y5utg"
-path.s3tc="res://.godot/imported/Old Suitcase.png-07b8c1aea7a2e6c1481299b3b6c8a2f8.s3tc.ctex"
+path.s3tc="res://.godot/imported/Old Suitcase.png-ca84cbef8688789e5d7281394c7f035b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Old Suitcase.png"
-dest_files=["res://.godot/imported/Old Suitcase.png-07b8c1aea7a2e6c1481299b3b6c8a2f8.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Old Suitcase.png"
+dest_files=["res://.godot/imported/Old Suitcase.png-ca84cbef8688789e5d7281394c7f035b.s3tc.ctex"]
 
 [params]
 

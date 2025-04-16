@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwvfrf22got13"
-path.s3tc="res://.godot/imported/Work Shelf Cabinet.png-e70dee2062a4ac49c5332419f2239b69.s3tc.ctex"
+path.s3tc="res://.godot/imported/Work Shelf Cabinet.png-9315605565ed1a38f482c95b4a22260b.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Work Shelf Cabinet.png"
-dest_files=["res://.godot/imported/Work Shelf Cabinet.png-e70dee2062a4ac49c5332419f2239b69.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Work Shelf Cabinet.png"
+dest_files=["res://.godot/imported/Work Shelf Cabinet.png-9315605565ed1a38f482c95b4a22260b.s3tc.ctex"]
 
 [params]
 

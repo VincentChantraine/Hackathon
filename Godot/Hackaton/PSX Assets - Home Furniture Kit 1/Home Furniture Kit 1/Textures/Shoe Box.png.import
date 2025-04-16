@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://db7pii0kvlora"
-path.s3tc="res://.godot/imported/Shoe Box.png-f462d0303c02bc13387bec2b31be7a3e.s3tc.ctex"
+path.s3tc="res://.godot/imported/Shoe Box.png-513c65233653545b8199a8ae35bbe947.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Shoe Box.png"
-dest_files=["res://.godot/imported/Shoe Box.png-f462d0303c02bc13387bec2b31be7a3e.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Shoe Box.png"
+dest_files=["res://.godot/imported/Shoe Box.png-513c65233653545b8199a8ae35bbe947.s3tc.ctex"]
 
 [params]
 

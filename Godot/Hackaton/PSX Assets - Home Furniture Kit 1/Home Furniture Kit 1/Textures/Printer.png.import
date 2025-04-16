@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl7er5b48mfic"
-path.s3tc="res://.godot/imported/Printer.png-12c6310c9ee3feec0909513461be72e7.s3tc.ctex"
+path.s3tc="res://.godot/imported/Printer.png-f7370a9e7d63cff52d8b2820082be866.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Printer.png"
-dest_files=["res://.godot/imported/Printer.png-12c6310c9ee3feec0909513461be72e7.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Printer.png"
+dest_files=["res://.godot/imported/Printer.png-f7370a9e7d63cff52d8b2820082be866.s3tc.ctex"]
 
 [params]
 

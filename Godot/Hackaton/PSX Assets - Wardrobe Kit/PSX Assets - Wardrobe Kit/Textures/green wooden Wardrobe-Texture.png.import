@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpv5tsdie8ovx"
-path.s3tc="res://.godot/imported/green wooden Wardrobe-Texture.png-979345be223d1ffcca526bf74fef3274.s3tc.ctex"
+path.s3tc="res://.godot/imported/green wooden Wardrobe-Texture.png-3963d6fac77307160a59158bf19bc4d2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/textures/green wooden Wardrobe-Texture.png"
-dest_files=["res://.godot/imported/green wooden Wardrobe-Texture.png-979345be223d1ffcca526bf74fef3274.s3tc.ctex"]
+source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/Textures/green wooden Wardrobe-Texture.png"
+dest_files=["res://.godot/imported/green wooden Wardrobe-Texture.png-3963d6fac77307160a59158bf19bc4d2.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dsbmu8uxgmluh"
-path.s3tc="res://.godot/imported/Home Atlas 1.png-91138a65203a66c927457eb8aa36df18.s3tc.ctex"
+path.s3tc="res://.godot/imported/Home Atlas 1.png-ce4792d6a4b5c47f95ce1b9a45a3bb27.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Home Atlas 1.png"
-dest_files=["res://.godot/imported/Home Atlas 1.png-91138a65203a66c927457eb8aa36df18.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Home Atlas 1.png"
+dest_files=["res://.godot/imported/Home Atlas 1.png-ce4792d6a4b5c47f95ce1b9a45a3bb27.s3tc.ctex"]
 
 [params]
 

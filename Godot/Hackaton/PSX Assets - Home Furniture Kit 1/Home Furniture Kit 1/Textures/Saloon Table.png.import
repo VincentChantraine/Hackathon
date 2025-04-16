@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bg51m08jqcmf7"
-path.s3tc="res://.godot/imported/Saloon Table.png-2299b47c420b953c014817ece54c101b.s3tc.ctex"
+path.s3tc="res://.godot/imported/Saloon Table.png-094172db1842f82248c55a19e7025958.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Saloon Table.png"
-dest_files=["res://.godot/imported/Saloon Table.png-2299b47c420b953c014817ece54c101b.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Saloon Table.png"
+dest_files=["res://.godot/imported/Saloon Table.png-094172db1842f82248c55a19e7025958.s3tc.ctex"]
 
 [params]
 

@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do5xp5j22vm44"
-path.s3tc="res://.godot/imported/Brown Triple lockers-Texture.png-92ff4e348d6fc3e440f76c2b4bd18979.s3tc.ctex"
+path.s3tc="res://.godot/imported/Brown Triple lockers-Texture.png-480b57168874c44f9d2c58be9ed0cca2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/textures/Brown Triple lockers-Texture.png"
-dest_files=["res://.godot/imported/Brown Triple lockers-Texture.png-92ff4e348d6fc3e440f76c2b4bd18979.s3tc.ctex"]
+source_file="res://PSX Assets - Wardrobe Kit/PSX Assets - Wardrobe Kit/Textures/Brown Triple lockers-Texture.png"
+dest_files=["res://.godot/imported/Brown Triple lockers-Texture.png-480b57168874c44f9d2c58be9ed0cca2.s3tc.ctex"]
 
 [params]
 

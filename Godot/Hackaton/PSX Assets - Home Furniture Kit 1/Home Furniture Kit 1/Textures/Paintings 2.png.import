@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di6rqw5krduw3"
-path.s3tc="res://.godot/imported/Paintings 2.png-0e4bf094d7d80e7743970191e1008238.s3tc.ctex"
+path.s3tc="res://.godot/imported/Paintings 2.png-302448b565db9805f4f3b17c7752e0bc.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/textures/Paintings 2.png"
-dest_files=["res://.godot/imported/Paintings 2.png-0e4bf094d7d80e7743970191e1008238.s3tc.ctex"]
+source_file="res://PSX Assets - Home Furniture Kit 1/Home Furniture Kit 1/Textures/Paintings 2.png"
+dest_files=["res://.godot/imported/Paintings 2.png-302448b565db9805f4f3b17c7752e0bc.s3tc.ctex"]
 
 [params]
 
